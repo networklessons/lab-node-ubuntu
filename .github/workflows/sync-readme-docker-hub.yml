@@ -18,7 +18,7 @@ jobs:
       uses: peter-evans/dockerhub-description@v4
       with:
         username: ${{ secrets.DOCKERHUB_NWL_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_NWL_PASSWORD }}
+        password: ${{ secrets.DOCKERHUB_NWL_PAT }}
         repository: networklessons/ubuntu-network-host
         short-description: ${{ github.event.repository.description }}
         enable-url-completion: true
