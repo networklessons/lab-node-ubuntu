@@ -8,3 +8,5 @@ Ubuntu base image with useful tools such as:
 - And more...
 
 You can use this in emulators such as EVE-NG, Containerlab, etc.
+
+https://github.com/networklessons/ubuntu-network-host
