@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     dnsutils \
     nmap \
     iperf3 \
+    hping3 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the default command
