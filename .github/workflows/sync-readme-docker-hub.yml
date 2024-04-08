@@ -1,6 +1,5 @@
 name: Update Docker Hub Description
 on:
-
   push:
     branches:
       - main
