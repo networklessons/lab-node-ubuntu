@@ -1,11 +1,13 @@
 name: Update Docker Hub Description
 on:
+
   push:
     branches:
       - main
     paths:
       - README.md
       - .github/workflows/sync-readme-docker-hub.yml
+  workflow_dispatch: # Allows manual trigger from GitHub website
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
