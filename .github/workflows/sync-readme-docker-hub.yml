@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - README.md
-      - .github/workflows/dockerhub-description.yml
+      - .github/workflows/sync-readme-docker-hub.yml
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
