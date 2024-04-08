@@ -1,5 +1,10 @@
 # ubuntu-network-host
 
-Ubuntu base image with useful tools such as nmap, Iperf, etc. for network labs.
+Ubuntu base image with useful tools such as:
+
+- nmap
+- Iperf
+- Hping3
+- And more...
 
 You can use this in emulators such as EVE-NG, Containerlab, etc.
