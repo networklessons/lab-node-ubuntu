@@ -23,9 +23,17 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_NWL_USERNAME }}
           password: ${{ secrets.DOCKERHUB_NWL_PAT }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: networklessons/ubuntu-network-host
+
       -
         name: Build and push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: networklessons/ubuntu-network-host:latest
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
