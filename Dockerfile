@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Update apt cache and install networking tools
 RUN apt-get update && apt-get install -y \
+    vim \
     iputils-ping \
     iproute2 \
     curl \
