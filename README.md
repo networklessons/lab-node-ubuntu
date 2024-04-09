@@ -1,4 +1,6 @@
-# ubuntu-network-host
+# Ubuntu Network Host
+
+[![CI](https://github.com/geerlingguy/ansible-role-kubernetes/workflows/CI/badge.svg?event=push)](https://github.com/networklessons/ubuntu-network-host/actions?query=workflow%3AUbuntu)
 
 Ubuntu base image with useful tools such as:
 
