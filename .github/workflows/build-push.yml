@@ -11,14 +11,13 @@ jobs:
   docker:
     runs-on: self-hosted
     steps:
-      -
-        name: Set up QEMU
+      - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
-      -
-        name: Set up Docker Buildx
+
+      - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-      -
-        name: Login to Docker Hub
+
+      - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_NWL_USERNAME }}
@@ -29,11 +28,11 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: networklessons/ubuntu-network-host
+          # This will not be used directly for tagging in this scenario, but kept for potential label use.
 
-      -
-        name: Build and push
+      - name: Build and push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: networklessons/ubuntu-network-host:build-${{ github.run_number }}
           labels: ${{ steps.meta.outputs.labels }}
