@@ -36,5 +36,4 @@ jobs:
           push: true
           tags: |
             networklessons/ubuntu-network-host-${{ github.run_number }}
-            networklessons/ubuntu-network-host:latest
           labels: ${{ steps.meta.outputs.labels }}
