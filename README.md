@@ -40,3 +40,31 @@ If the interface is not up, you need to enable it using the `ip link set` comman
 ```
 sudo ip link set eth1 up
 ```
+
+## Static Route
+
+You could set the default gateway, but that might not be possible if you connect to this Docker container remotely. You can see the current routes here:
+
+```
+root@s1:/# ip route
+default via 172.100.100.1 dev eth0 
+172.100.100.0/24 dev eth0 proto kernel scope link src 172.100.100.16 
+192.168.0.0/16 via 192.168.12.254 dev eth1
+```
+
+You can add a static route like this:
+
+```
+ip route add 192.168.0.0/16 via 192.168.12.254 dev eth1
+```
+
+It will show up like this:
+
+```
+root@s1:/# ip route
+default via 172.100.100.1 dev eth0 
+172.100.100.0/24 dev eth0 proto kernel scope link src 172.100.100.16 
+192.168.0.0/16 via 192.168.12.254 dev eth1 
+192.168.12.0/24 dev eth1 proto kernel scope link src 192.168.12.1
+```
+
