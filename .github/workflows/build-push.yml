@@ -27,12 +27,12 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: networklessons/ubuntu-network-host
+          images: networklessons/ubuntu-lab-host
           # This will not be used directly for tagging in this scenario, but kept for potential label use.
 
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: networklessons/ubuntu-network-host:latest,networklessons/ubuntu-network-host:${{ github.run_number }}
+          tags: networklessons/ubuntu-lab-host:latest,networklessons/ubuntu-lab-host:${{ github.run_number }}
           labels: ${{ steps.meta.outputs.labels }}
