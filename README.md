@@ -2,6 +2,8 @@
 
 [![Publish Docker image](https://github.com/networklessons/ubuntu-network-host/workflows/Publish%20Docker%20image/badge.svg?event=push)](https://github.com/networklessons/ubuntu-network-host/actions?query=workflow%3A"Publish+Docker+image")
 
+https://hub.docker.com/r/networklessons/ubuntu-lab-host
+
 WARNING: Don't use this container in production because it might contain default usernames, passwords, and/or keys. It is only intended for locally hosted labs.
 
 Ubuntu base image with useful tools such as:
