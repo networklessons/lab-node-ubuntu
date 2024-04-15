@@ -1,6 +1,8 @@
 # Ubuntu Lab Host
 
 [![Publish Docker image](https://github.com/networklessons/ubuntu-network-host/workflows/Publish%20Docker%20image/badge.svg?event=push)](https://github.com/networklessons/ubuntu-network-host/actions?query=workflow%3A"Publish+Docker+image")
+[![Publish Docker Image](https://github.com/networklessons/ubuntu-network-host/workflows/Publish%20Docker%20image/badge.svg?branch=main&event=push)](https://github.com/networklessons/ubuntu-network-host/actions?query=workflow%3A"Publish+Docker+image")
+
 ![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/ubuntu-lab-host)
 ![Docker Image Version](https://img.shields.io/docker/v/networklessons/ubuntu-lab-host)
 
