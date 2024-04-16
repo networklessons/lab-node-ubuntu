@@ -22,7 +22,15 @@ You can use this in emulators such as EVE-NG, Containerlab, etc.
 
 https://github.com/networklessons/ubuntu-network-host
 
-## Change IP address on container
+## Change MAC address
+
+You can change the MAC address so that it is easier to recognize things in debugs or Wireshark:
+
+```
+ip link set dev eth1 address 00:50:c2:53:40:01
+```
+
+## Change IP address
 
 ### Delete the Current IP Address (if needed)
 
