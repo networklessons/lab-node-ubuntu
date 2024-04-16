@@ -47,6 +47,14 @@ If the interface is not up, you need to enable it using the `ip link set` comman
 sudo ip link set eth1 up
 ```
 
+## Flush ARP & NDISC Cache
+
+If you need to flush the IPv4 ARP or IPv6 NDISC cache, you can do this:
+
+```
+ip -s -s neighbor flush all
+```
+
 ## Static Route
 
 You could set the default gateway, but that might not be possible if you connect to this Docker container remotely. You can see the current routes here:
