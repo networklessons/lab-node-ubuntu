@@ -36,7 +36,7 @@ ip link set dev eth1 address 00:50:c2:53:40:01
 
 First, if there's already an IP address assigned to `eth1` and you want to replace it, you can remove it using the `ip addr del` command. You need to know the current IP address assigned to do this. You can find it with `ip addr show eth1`. Then, replace `current.ip.address/xx` with the actual current IP configuration:
 ```
-sudo ip addr del current.ip.address/xx dev eth1
+ip addr del current.ip.address/xx dev eth1
 ```
 
 ### Add the New IP Address
@@ -44,7 +44,7 @@ sudo ip addr del current.ip.address/xx dev eth1
 To add the new IP address `192.168.12.1/24` to the `eth1` interface, use:
 
 ```
-sudo ip addr add 192.168.12.1/24 dev eth1
+ip addr add 192.168.12.1/24 dev eth1
 ```
 
 ### Enable the Interface
@@ -52,7 +52,7 @@ sudo ip addr add 192.168.12.1/24 dev eth1
 If the interface is not up, you need to enable it using the `ip link set` command:
 
 ```
-sudo ip link set eth1 up
+ip link set eth1 up
 ```
 
 ## Flush ARP & NDISC Cache
