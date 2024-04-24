@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     nmap \
     iperf3 \
     hping3 \
-    openssh-server
+    openssh-server \
     && rm -rf /var/lib/apt/lists/*
 
 # Add lab user for SSH.
