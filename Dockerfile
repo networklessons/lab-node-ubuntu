@@ -15,7 +15,14 @@ RUN apt-get update && apt-get install -y \
     nmap \
     iperf3 \
     hping3 \
+    openssh-server
     && rm -rf /var/lib/apt/lists/*
 
+# Add lab user for SSH.
+RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 lab
+RUN  echo 'lab:lab' | chpasswd
+
+EXPOSE 22
 # Set the default command
-CMD ["/bin/bash"]
+CMD ["/usr/sbin/sshd","-D"]
+#CMD ["/bin/bash"]
