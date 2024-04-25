@@ -58,8 +58,18 @@ If the interface is not up, you need to enable it using the `ip link set` comman
 ```
 ip link set eth1 up
 ```
+## ARP / NDISC
 
-## Flush ARP & NDISC Cache
+### ARP Cache
+
+You can see the arp cache like this:
+
+```
+root@s1:/home/ubuntu# ip neigh show dev eth1
+172.16.12.2  FAILED
+```
+
+### Flush ARP & NDISC Cache
 
 If you need to flush the IPv4 ARP or IPv6 NDISC cache, you can do this:
 
