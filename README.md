@@ -1,10 +1,9 @@
 # Ubuntu Lab Host
 
 [![Publish Docker image](https://github.com/networklessons/ubuntu-lab-host/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/ubuntu-lab-host/actions/workflows/build-push.yml)
-
 ![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/ubuntu-lab-host)
 ![Docker Image Version](https://img.shields.io/docker/v/networklessons/ubuntu-lab-host)
-[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/eaudeweb/scratch/builds)
+[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/ubuntu-lab-host/tags)
 <a href="https://twitter.com/networklessons" ><img src="https://img.shields.io/twitter/follow/networklessons.svg?style=social" /> </a>
 
 [Ubuntu Lab Host on Docker Hub](https://hub.docker.com/r/networklessons/ubuntu-lab-host) 
