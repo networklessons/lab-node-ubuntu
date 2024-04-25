@@ -22,6 +22,10 @@ You can use this in emulators such as EVE-NG, Containerlab, etc.
 
 https://github.com/networklessons/ubuntu-network-host
 
+## SSH
+
+This container has a 'lab' user with password 'lab'. SSH is started on boot. This user can use `sudo`.
+
 ## Change MAC address
 
 You can change the MAC address so that it is easier to recognize things in debugs or Wireshark:
