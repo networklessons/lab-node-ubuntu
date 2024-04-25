@@ -17,14 +17,17 @@ RUN apt-get update && apt-get install -y \
     hping3 \
     tcpdump \
     openssh-server \
+    sudo \
     && rm -rf /var/lib/apt/lists/*
 
 # Add lab user for SSH.
-RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 lab
-RUN  echo 'lab:lab' | chpasswd
-RUN mkdir /var/run/sshd
+RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 lab && \
+    echo 'lab:lab' | chpasswd && \
+    mkdir /var/run/sshd
+
+# Grant lab user passwordless sudo privileges
+RUN echo 'lab ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/lab
 
 EXPOSE 22
 # Set the default command
-CMD ["/usr/sbin/sshd","-D"]
-#CMD ["/bin/bash"]
+CMD ["/usr/sbin/sshd", "-D"]
