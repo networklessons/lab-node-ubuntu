@@ -24,7 +24,7 @@ https://github.com/networklessons/ubuntu-network-host
 
 ## SSH
 
-This container has a 'lab' user with password 'lab'. SSH is started on boot. This user can use `sudo`.
+This container has a 'lab' user with password 'lab'. SSH is started on boot. This user can use `sudo`. If you don't want to execute everything with sudo, switch to the root user: `sudo su`.
 
 ## Change MAC address
 
