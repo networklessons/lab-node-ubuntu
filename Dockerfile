@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
 # Add lab user for SSH.
 RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 lab
 RUN  echo 'lab:lab' | chpasswd
+RUN mkdir /var/run/sshd
 
 EXPOSE 22
 # Set the default command
