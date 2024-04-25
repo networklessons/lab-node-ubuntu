@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     nmap \
     iperf3 \
     hping3 \
+    tcpdump \
     openssh-server \
     && rm -rf /var/lib/apt/lists/*
 
