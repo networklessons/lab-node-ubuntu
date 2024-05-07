@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     iperf3 \
     hping3 \
     tcpdump \
+    socat \
     openssh-server \
     sudo \
     && rm -rf /var/lib/apt/lists/*
