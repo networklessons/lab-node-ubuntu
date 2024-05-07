@@ -18,6 +18,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_NWL_USERNAME }}
         password: ${{ secrets.DOCKERHUB_NWL_PAT }}
-        repository: networklessons/ubuntu-lab-host
+        repository: networklessons/lab-node-ubuntu
         short-description: ${{ github.event.repository.description }}
         enable-url-completion: true
