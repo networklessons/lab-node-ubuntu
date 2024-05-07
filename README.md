@@ -6,7 +6,7 @@
 [![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags)
 <a href="https://twitter.com/networklessons" ><img src="https://img.shields.io/twitter/follow/networklessons.svg?style=social" /> </a>
 
-[Ubuntu Lab Host on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu) 
+[Lab Node Ubuntu on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu) 
 
 WARNING: Don't use this container in production because it might contain default usernames, passwords, and/or keys. It is only intended for locally hosted labs.
 
@@ -20,7 +20,7 @@ Ubuntu base image with useful tools such as:
 
 You can use this as a host, server, or node in emulators such as EVE-NG, Containerlab, etc.
 
-https://github.com/networklessons/ubuntu-network-host
+https://github.com/networklessons/lab-node-ubuntu
 
 ## SSH
 
