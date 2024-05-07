@@ -1,12 +1,12 @@
-# Ubuntu Lab Host
+# Lab Node Ubuntu
 
-[![Publish Docker image](https://github.com/networklessons/ubuntu-lab-host/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/ubuntu-lab-host/actions/workflows/build-push.yml)
-![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/ubuntu-lab-host)
-![Docker Image Version](https://img.shields.io/docker/v/networklessons/ubuntu-lab-host)
-[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/ubuntu-lab-host/tags)
+[![Publish Docker image](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml)
+![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu)
+![Docker Image Version](https://img.shields.io/docker/v/networklessons/lab-node-ubuntu)
+[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags)
 <a href="https://twitter.com/networklessons" ><img src="https://img.shields.io/twitter/follow/networklessons.svg?style=social" /> </a>
 
-[Ubuntu Lab Host on Docker Hub](https://hub.docker.com/r/networklessons/ubuntu-lab-host) 
+[Ubuntu Lab Host on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu) 
 
 WARNING: Don't use this container in production because it might contain default usernames, passwords, and/or keys. It is only intended for locally hosted labs.
 
@@ -18,7 +18,7 @@ Ubuntu base image with useful tools such as:
 - hping3
 - curl
 
-You can use this in emulators such as EVE-NG, Containerlab, etc.
+You can use this as a host, server, or node in emulators such as EVE-NG, Containerlab, etc.
 
 https://github.com/networklessons/ubuntu-network-host
 
@@ -103,4 +103,3 @@ default via 172.100.100.1 dev eth0
 192.168.0.0/16 via 192.168.12.254 dev eth1 
 192.168.12.0/24 dev eth1 proto kernel scope link src 192.168.12.1
 ```
-
