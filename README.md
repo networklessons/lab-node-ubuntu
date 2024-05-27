@@ -19,14 +19,14 @@
   <!-- Facebook Badge -->
   <a href="https://facebook.com/networklessons"><img src="https://img.shields.io/badge/facebook-like-blue.svg?color=4BB797&logo=facebook" alt="Facebook" /></a>
 </div>
-
-# Lab Node Ubuntu
-
 [![Publish Docker image](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu)
 ![Docker Image Version](https://img.shields.io/docker/v/networklessons/lab-node-ubuntu)
 [![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags)
-<a href="https://twitter.com/networklessons" ><img src="https://img.shields.io/twitter/follow/networklessons.svg?style=social" /> </a>
+
+# Lab Node Ubuntu
+
+
 
 [Lab Node Ubuntu on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu) 
 
