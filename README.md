@@ -19,6 +19,7 @@
   <!-- Facebook Badge -->
   <a href="https://facebook.com/networklessons"><img src="https://img.shields.io/badge/facebook-like-blue.svg?color=4BB797&logo=facebook" alt="Facebook" /></a>
 </div>
+
 [![Publish Docker image](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu)
 ![Docker Image Version](https://img.shields.io/docker/v/networklessons/lab-node-ubuntu)
