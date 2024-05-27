@@ -21,9 +21,9 @@
   <!-- Publish Docker Image Badge -->
   <a href="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml"><img src="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg" alt="Publish Docker image" /></a>
   <!-- Docker Pulls Badge -->
-  <img src="https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntus?color=4BB797" alt="Docker Pulls" />
+  <img src="https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu?color=4BB797" alt="Docker Pulls" />
   <!-- Docker Image Version Badge -->
-  <img src="https://img.shields.io/docker/v/networklessons/lab-node-ubuntus?color=4BB797" alt="Docker Image Version" />
+  <img src="https://img.shields.io/docker/v/networklessons/lab-node-ubuntu?color=4BB797" alt="Docker Image Version" />
   <!-- Docker Build Badge -->
   <a href="https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags"><img src="https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat" alt="Docker" /></a>
 </div>
