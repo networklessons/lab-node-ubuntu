@@ -18,12 +18,15 @@
   <a href="https://www.linkedin.com/company/networklessons"><img src="https://img.shields.io/badge/linkedin-connect-blue.svg?color=4BB797&logo=linkedin" alt="LinkedIn" /></a>
   <!-- Facebook Badge -->
   <a href="https://facebook.com/networklessons"><img src="https://img.shields.io/badge/facebook-like-blue.svg?color=4BB797&logo=facebook" alt="Facebook" /></a>
+  <!-- Publish Docker Image Badge -->
+  <a href="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml"><img src="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg" alt="Publish Docker image" /></a>
+  <!-- Docker Pulls Badge -->
+  <img src="https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu" alt="Docker Pulls" />
+  <!-- Docker Image Version Badge -->
+  <img src="https://img.shields.io/docker/v/networklessons/lab-node-ubuntu" alt="Docker Image Version" />
+  <!-- Docker Build Badge -->
+  <a href="https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags"><img src="https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat" alt="Docker" /></a>
 </div>
-
-[![Publish Docker image](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg)](https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml)
-![Docker Pulls](https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu)
-![Docker Image Version](https://img.shields.io/docker/v/networklessons/lab-node-ubuntu)
-[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags)
 
 # Lab Node Ubuntu
 
