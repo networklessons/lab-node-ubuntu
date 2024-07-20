@@ -44,6 +44,8 @@ Ubuntu base image with useful tools such as:
 - hping3
 - curl
 
+And more...
+
 You can use this as a host, server, or node in emulators such as EVE-NG, Containerlab, etc.
 
 https://github.com/networklessons/lab-node-ubuntu
