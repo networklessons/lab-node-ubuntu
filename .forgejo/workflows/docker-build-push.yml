@@ -28,7 +28,7 @@ jobs:
           # Replaced output.inc_tag with forgejo.run_number
           docker build \
             -t networklessons/lab-node-ubuntu:latest \
-            -t networklessons/lab-node-ubuntu:${{ forgejo.run_number }}
+            -t networklessons/lab-node-ubuntu:${{ forgejo.run_number }} .
 
       - name: Push Docker image
         run: |
