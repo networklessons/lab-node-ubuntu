@@ -1,38 +1,25 @@
+> **Note:** This repository has been migrated to the [networklessons/labs](https://github.com/networklessons/labs/tree/main/containers/lab-node-ubuntu/) monorepo. Please refer to the monorepo for the latest version.
+
 <p align="center">
   <a href="https://networklessons.com">
     <img src="https://github.com/networklessons/labs/blob/main/github-banner-nwl.png" alt="Networking in plain English..." />
   </a>
 </p>
 <div align="center">
-  <!-- GitHub Stars Badge -->
   <a href="https://github.com/networklessons/labs/stargazers"><img src="https://img.shields.io/github/stars/networklessons/labs?color=4BB797&logo=github" alt="GitHub star" /></a>
-  <!-- Website Badge -->
   <a href="https://networklessons.com"><img src="https://img.shields.io/badge/Website-networklessons.com-5381B5" alt="Visit Networklessons.com" /></a>
-  <!-- Join Now Badge -->
   <a href="https://networklessons.com/sign-up"><img src="https://img.shields.io/badge/Community-Join%20Now-FFC369?logo=community" alt="Join Us" /></a>
-  <!-- Discourse Badge -->
   <a href="https://forum.networklessons.com/"><img src="https://img.shields.io/badge/discourse-browse_forum-red.svg?color=FFC369&logo=discourse" alt="Discourse" /></a>
-  <!-- YouTube Badge -->
   <a href="https://www.youtube.com/c/networklessons/"><img src="https://img.shields.io/badge/youtube-watch_videos-red.svg?color=4BB797&logo=youtube" alt="YouTube" /></a>
-  <!-- LinkedIn Badge -->
   <a href="https://www.linkedin.com/company/networklessons"><img src="https://img.shields.io/badge/linkedin-connect-blue.svg?color=4BB797&logo=linkedin" alt="LinkedIn" /></a>
-  <!-- Facebook Badge -->
   <a href="https://facebook.com/networklessons"><img src="https://img.shields.io/badge/facebook-like-blue.svg?color=4BB797&logo=facebook" alt="Facebook" /></a>
-  <!-- Publish Docker Image Badge -->
-  <a href="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml"><img src="https://github.com/networklessons/lab-node-ubuntu/actions/workflows/build-push.yml/badge.svg?color=4BB797" alt="Publish Docker image" /></a>
-  <!-- Docker Pulls Badge -->
   <img src="https://img.shields.io/docker/pulls/networklessons/lab-node-ubuntu?color=4BB797" alt="Docker Pulls" />
-  <!-- Docker Image Version Badge -->
   <img src="https://img.shields.io/docker/v/networklessons/lab-node-ubuntu?color=4BB797" alt="Docker Image Version" />
-  <!-- Docker Build Badge -->
-  <a href="https://hub.docker.com/r/networklessons/lab-node-ubuntu/tags"><img src="https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat" alt="Docker" /></a>
 </div>
 
 # Lab Node Ubuntu
 
-
-
-[Lab Node Ubuntu on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu) 
+[Lab Node Ubuntu on Docker Hub](https://hub.docker.com/r/networklessons/lab-node-ubuntu)
 
 WARNING: Don't use this container in production because it might contain default usernames, passwords, and/or keys. It is only intended for locally hosted labs.
 
@@ -47,7 +34,7 @@ Ubuntu base image with useful tools such as:
 
 You can use this as a host, server, or node in emulators such as EVE-NG, Containerlab, etc.
 
-https://github.com/networklessons/lab-node-ubuntu
+https://github.com/networklessons/labs/tree/main/containers/lab-node-ubuntu/
 
 ## SSH
 
